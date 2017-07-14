@@ -1,0 +1,80 @@
+// function declaration
+extern int chapter2_1(void);
+extern int chapter2_2(void);
+extern int chapter2_3(void);
+
+extern int chapter3_1(void);
+extern int chapter3_2(void);
+extern int chapter3_3(void);
+extern int chapter3_4(void);
+extern int chapter3_5(void);
+extern int chapter3_6(void);
+extern int chapter3_7(void);
+extern int chapter3_8(void);
+
+extern int chapter4_1(void);
+extern int chapter4_2(void);
+
+extern int chapter5_1(void);
+extern int chapter5_2(void);
+extern int chapter5_3(void);
+extern int chapter5_4(void);
+extern int chapter5_51(void);
+extern int chapter5_52(void);
+extern int chapter5_6(void);
+extern int chapter5_7(void);
+extern int chapter5_8(void);
+extern int chapter5_9(void);
+extern int chapter5_10(void);
+extern int chapter5_11(void);
+extern int chapter5_12(void);
+extern int chapter5_13(void);
+
+extern int chapter8_1(void);
+extern int chapter8_2(void);
+extern int chapter8_3(void);
+extern int chapter8_4(void);
+extern int chapter8_5(void);
+extern int chapter8_6(void);
+extern int chapter8_7(void);
+extern int chapter8_8(void);
+
+extern int chapter9_1(void);
+extern int chapter9_2(void);
+extern int chapter9_3(void);
+extern int chapter9_4(void);
+extern int chapter9_5(void);
+
+int fact(int num1);
+int isprime(int num2);
+int isodd(int num3);
+int Exit(int num4);
+char * dec2rom(int num);
+void calculate(float num[5]);
+int sum(int num);
+void factor(int);
+void dec2bin1(int dec,char * bin);
+void dec2bin2(int dec,char * bin);
+int Fibonacci(int num);
+int SUM(int num);
+float sin_spe(int x,int n);
+void shift_right(int * a,int * b,int *c);
+void dec2bin12(int dec,char * bin);
+void dec2bin22(int dec,char * bin);
+void bin2dec(char * bin,int dec);
+int gcd(int a,int b);
+void search(int target,int * array,int len);
+int IsPrime(int num);
+void num_pneo(int * array,int n);
+int largest(int line,int row,int add[line][row]);
+void bubble_sort(int * array,int len);
+void selection_sort(int * array,int len);
+void insert_sort(int * array,int len);
+int getkey(void);
+void first_table(int * num);
+void location_zero(int col,int row,int num[col][row],int loc_zero[2]);
+void moved_table(int direction_4[4],int now_table[4][4],int *loc_zero,int key);
+int STRLEN(const char * str);
+int STRCMP(const char *s1,const char *s2);
+char *STRCPY(char* dest, const char *src);
+char *STRCAT(char *dest, const char *src);
